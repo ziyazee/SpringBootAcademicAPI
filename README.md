@@ -40,7 +40,7 @@ The API has 3 categories:
 #### Student
 
 Post request:  
-localhost:8080/studnets
+localhost:8080/students
 
 Get request:  
 localhost:8080/students  
@@ -60,8 +60,8 @@ localhost:8080/faculties/{usn}
 
 Get request:  
 localhost:8080/department  
-localhost:8080/faculties/{branch}  
-localhost:8080/faculties/{year}  
+localhost:8080/department/branch/{branch}  
+localhost:8080/department/year/{year}  
 
 
 eg:localhost:8080/department/ise
