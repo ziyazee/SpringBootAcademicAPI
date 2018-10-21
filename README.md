@@ -23,11 +23,11 @@ An API is developed for storing and retrieving Academics information
 
 # How to deploy
 
-* Clone the repo
-* run the following commands
-* mvn install
-* java -jar target/AcademicsInfoAPI-0.0.1-SNAPSHOT.jar
-* open the browser with localhost:8080
+* Clone the repo  
+* Run the following commands
+    * mvn install
+    * java -jar target/AcademicsInfoAPI-0.0.1-SNAPSHOT.jar
+* Open the browser and run localhost:8080
 
 # Usage
 
@@ -39,29 +39,29 @@ The API has 3 categories:
 
 #### Student
 
-Post request:
+Post request:  
 localhost:8080/studnets
 
-Get request:
-localhost:8080/students
+Get request:  
+localhost:8080/students  
 localhost:8080/students/{usn}
 
 
 #### Faculty
 
-Post request:
+Post request:  
 localhost:8080/faculties
 
-Get request:
-localhost:8080/faculties
+Get request:  
+localhost:8080/faculties  
 localhost:8080/faculties/{usn}
 
 ####  Department
 
-Get request:
-localhost:8080/department
-localhost:8080/faculties/{branch}
-localhost:8080/faculties/{year}
+Get request:  
+localhost:8080/department  
+localhost:8080/faculties/{branch}  
+localhost:8080/faculties/{year}  
 
 
 eg:localhost:8080/department/ise
