@@ -59,7 +59,7 @@ Get request:
 ####  Department
 
 Get request:  
-`localhost:8080/department`
+`localhost:8080/department`  
 `localhost:8080/department/branch/{branch}`  
 `localhost:8080/department/year/{year}`
 
