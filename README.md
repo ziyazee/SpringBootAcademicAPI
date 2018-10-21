@@ -40,28 +40,28 @@ The API has 3 categories:
 #### Student
 
 Post request:  
-localhost:8080/students
+`localhost:8080/students`
 
 Get request:  
-localhost:8080/students  
-localhost:8080/students/{usn}
+`localhost:8080/students`       
+`localhost:8080/students/{usn}`
 
 
 #### Faculty
 
 Post request:  
-localhost:8080/faculties
+`localhost:8080/faculties`
 
 Get request:  
-localhost:8080/faculties  
-localhost:8080/faculties/{usn}
+`localhost:8080/faculties`  
+`localhost:8080/faculties/{usn}`
 
 ####  Department
 
 Get request:  
-localhost:8080/department  
-localhost:8080/department/branch/{branch}  
-localhost:8080/department/year/{year}  
+`localhost:8080/department`
+`localhost:8080/department/branch/{branch}`  
+`localhost:8080/department/year/{year}`
 
 
-eg:localhost:8080/department/ise
+eg: `localhost:8080/department/branch/ise`
